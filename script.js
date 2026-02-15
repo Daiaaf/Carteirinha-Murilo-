@@ -1,0 +1,1 @@
+console.log('Carteirinha pixel-perfect carregada!');

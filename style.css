@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #1a1a22;
+  color: #e1e1e6;
+}
+
+.header {
+  height: 72px;
+  background: #16161d;
+  border-bottom: 1px solid #202028;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-button {
+  width: 44px;
+  height: 44px;
+  background: #202028;
+  border: 1px solid #2c2c38;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-login {
+  background: #202028;
+  border: 1px solid #2c2c38;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #7137e4, #8257e5);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px 80px;
+}
+
+.content {
+  width: 100%;
+  max-width: 720px;
+}
+
+.btn-consulta {
+  background: linear-gradient(90deg, #7137e4, #8257e5);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.title h1 {
+  font-size: 28px;
+}
+
+.photo-box {
+  background: #202028;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+  width: fit-content;
+}
+
+.photo-box img {
+  width: 240px;
+  border-radius: 16px;
+}
+
+.info-card {
+  background: #202028;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+.field {
+  margin-bottom: 24px;
+}
+
+.field span {
+  display: block;
+  color: #8d8d99;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.field strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #2a2a35;
+  margin: 32px 0;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 40px;
+  color: #8d8d99;
+}
+
+.footer-text span {
+  color: #8257e5;
+}
+
+@media (max-width: 768px) {
+  .btn-login { display: none; }
+}
+
+@media (max-width: 520px) {
+  .btn-primary { display: none; }
+}
